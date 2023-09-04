@@ -1,0 +1,43 @@
+The three most common measures of composition in thermodynamics are mass fraction, mole fraction, and molar concentration. Mass or mole fraction is defined as the ratio of the mass or number of moles of a particular chemical species in a mixture to the total mass or number of moles of mixture:
+
+Molar concentration is defined as the ratio of the mole fraction of a particular chemical species in a mixture or solution to the molar volume of the mixture or solution:
+
+This quantity has units of moles of $i$ per unit volume. For flow processes, convenience suggests its expression as a ratio of rates. Multiplying and dividing by molar flow rate $\dot{n}$ gives:
+
+where $\dot{n}_{i}$ is molar flow rate of species $i$, and $q$ is volumetric flow rate.
+
+where $n$ is the total number of moles of the system. It applies to a single-phase fluid in a closed system wherein no chemical reactions occur. For such a system the composition is necessarily constant, and therefore:
+
+Equation (6.11) for a constant-composition solution is a special case of Eq. (10.3). Although the mole numbers $n_{i}$ of Eq. (10.2) are independent variables, the mole fractions $x_{i}$ in Eq. (10.3) are not, because $\sum_{i} x_{i}=1$. This precludes certain mathematical operations which depend upon independence of the variables. Nevertheless, Eq. (10.3) does imply:
+
+where superscripts $\alpha$ and $\beta$ identify the phases. For the system to be in thermal and mechanical equilibrium, $T$ and $P$ must be uniform.
+
+where $N$ is the number of species present in the system. Successive application of this result to pairs of phases permits its generalization to multiple phases; for $\pi$ phases:
+
+Interest here centers on solutions, for which molar (or unit-mass) properties are represented by the plain symbol $M$. Partial properties are denoted by an overbar, with a subscript to identify the species; the symbol is therefore $\bar{M}_{i} .$ In addition, properties of the individual species as they exist in the pure state at the $T$ and $P$ of the solution are identified by only a subscript, and the symbol is $M_{i} .$ In summary, the three kinds of properties used in solution thermodynamics are distinguished using the following notation:
+
+When $\bar{V}_{w}$ is considered the molar property of water as it exists in solution, the total volume change $d(n V)$ is merely this molar property multiplied by the number of moles $d n_{w}$ of water added.
+
+When $M$ is known as a function of $x_{1}$ at constant $T$ and $P$, the appropriate form of the Gibbs/ Duhem equation is Eq. (10.14), expressed here as:
+
+where subscript $n$ indicates constancy of all $n_{i}$, and therefore of composition, and subscript $n_{j}$ indicates that all mole numbers except the $i^{\text {th }}$ are held constant. We recognize the terms on the right-hand side of these equations as the partial volume and partial entropy, and thus we can rewrite them more simply as:
+
+We define the partial pressure of species $i$ in the ideal-gas-state mixture $\left(p_{i}\right)$ as the pressure that species $i$ would exert if it alone occupied the molar volume of the mixture. Thus, ${ }^{5}$
+
+where $y_{i}$ is the mole fraction of species $i .$ The partial pressures obviously sum to the total pressure.
+
+As is evident from Eq. (10.6), the chemical potential $\mu_{i}$ provides the fundamental criterion for phase equilibrium. This is true as well for chemical-reaction equilibria. However, it exhibits characteristics that discourage its direct use. The Gibbs energy, and hence $\mu_{i}$, is defined in relation to internal energy and entropy. Because absolute values of internal energy are unknown, the same is true for $\mu_{i}$. Moreover, Eq. (10.29) shows that $\mu_{i}^{i g}$ approaches negative infinity when either $P$ or $y_{i}$ approaches zero. This is true not only for the ideal-gas state, but for any gas. Although these characteristics do not preclude the use of chemical potentials, the application of equilibrium criteria is facilitated by the introduction of the fugacity, $^{7}$ a property that takes the place of $\mu_{i}$ but does not exhibit its less desirable characteristics.
+
+The origin of the fugacity concept resides in Eq. (10.28), valid only for pure species $i$ in the ideal-gas state. For a real fluid, we write an analogous equation that defines $f_{i}$, the fugacity of pure species $i$ :
+
+This equation applies to the change of state from saturated liquid to saturated vapor, at temperature $T$ and at the vapor pressure $P_{i}^{\text {sat }}$. According to Eq. (6.83), $G_{i}^{v}-G_{i}^{l}=0 ;$ therefore:
+
+Ratio $(A)$ is the vapor-phase fugacity coefficient of pure vapor $i$ at its vapor/liquid saturation pressure, designated $\phi_{i}^{\text {sat. }}$ It is given by Eq. (10.35), written,
+
+Because $V_{i}^{l}$, the liquid-phase molar volume, is a very weak function of $P$ at temperatures well below $T_{c}$, an excellent approximation is often obtained by taking $V_{i}^{l}$ to be constant at the value for saturated liquid. In this case,
+
+where $\hat{f}_{i}$ is the fugacity of species $i$ in solution, replacing the partial pressure $y_{i} P .$ This definition of $\hat{f}_{i}$ does not make it a partial molar property, and it is therefore identified by a circumflex rather than by an overbar.
+
+The dimensionless ratio $\hat{\phi}_{i}$ is called the fugacity coefficient of species i in solution. Although most commonly applied to gases, the fugacity coefficient may also be used for liquids, and in this case mole fraction $y_{i}$ is replaced by $x_{i}$, the symbol traditionally used for mole fractions in the liquid phase. Because Eq. (10.29) for the ideal-gas state is a special case of Eq. (10.46):
+
+where $y_{i}$ and $y_{j}$ represent mole fractions in a gas mixture. The indices $i$ and $j$ identify species, and both run over all species present in the mixture. The virial coefficient $B_{i j}$ characterizes bimolecular interactions between molecules of species $i$ and species $j$, and therefore $B_{i j}=B_{j i}$. The double summation accounts for all possible bimolecular interactions.

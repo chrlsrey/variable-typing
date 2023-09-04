@@ -1,0 +1,44 @@
+
+Application of thermodynamics to practical problems requires numerical values of thermodynamic properties. A very simple example is calculation of the work required for a steady-state gas compressor. If designed to operate adiabatically with the purpose of raising the pressure of a gas from $P_{1}$ to $P_{2}$, this work can be determined by an energy balance [Eq. (2.32)], wherein the small kinetic- and potential-energy changes of the gas are neglected:
+
+Equation (2.6), the first law for a closed system of $n$ moles of a substance, may be written for the special case of a reversible process:
+
+These three equations combine to give: where $U$, $S$, and $V$ are molar values of the internal energy, entropy, and volume. All of the primitive thermodynamic properties -$P$, $V$, $T$, $U$, and $S$ -are included in this equation. It is a fundamental property relation connecting these properties for closed $PVT$ systems. All other equations relating properties of such systems derive from it.
+
+However, the Gibbs energy $G$ is special, because of its unique functional relation to $T$ and $P$, the variables of primary interest by virtue of the ease of their measurement and control.
+
+Expression of $U$, $H$, $A$, and $G$ as functions of their canonical variables does not preclude the validity of other functional relationships for application to particular systems. Indeed, Axiom 3 of Sec. 2.5, applied to homogeneous $PVT$ systems of constant composition, asserts their dependence on $T$ and $P$. The restrictions exclude heterogeneous and reacting systems, except for $G$, for which $T$ and $P$ are the canonical variables. A simple example is a system comprised of a pure liquid in equilibrium with its vapor. Its molar internal energy depends on the relative amounts of liquid and vapor present, and this is in no way reflected by $T$ and $P$. However, the canonical variables $S$ and $V$ also depend on the relative amounts of the phases, giving $U=U(S, V)$ its greater generality. On the other hand, $T$ and $P$ are the canonical variables for the Gibbs energy, and $G=G(T, P)$ is general. Thus $G$ is fixed for given $T$ and $P$, regardless of the relative amounts of the phases, and provides the fundamental basis for the working equations of phase equilibria. Equations (6.8) through (6.11) lead not only to the Maxwell relations but also to many other equations relating thermodynamic properties. The remainder of this section develops those most useful for evaluation of thermodynamic properties from experimental data.
+
+In engineering practice, enthalpy and entropy are often the thermodynamic properties of interest, and $T$ and $P$ are the most common measurable properties of a substance or system. Thus, their mathematical connections, expressing the variation of $H$ and $S$ with changes in $T$ and $P$, are needed. This information is contained in the derivatives $(\partial H / \partial T)_{P},(\partial S / \partial T)_{P},(\partial H / \partial P)_{T}$, and ( $\partial S / \partial P)_{T}$, with which we can write:
+
+The Gibbs energy, $G$ or $G / R T$, when given as a function of its canonical variables $T$ and $P$, serves as a generating function for the other thermodynamic properties through simple mathematics, and implicitly represents complete property information.
+
+By definition, the residual Gibbs energy is: $G^{R} \equiv G-G^{i g}$, where $G$ and $G^{i g}$ are the actual and the ideal-gas-state values of the Gibbs energy at the same temperature and pressure. Other residual properties are defined in an analogous way. The residual volume, for example, is:
+
+where $M$ and $M^{i g}$ are actual and ideal-gas-state properties at the same $T$ and $P$. They represent molar values for any extensive thermodynamic property, e.g., $V$, $U$, $H$, $S$, or $G$.
+
+Values of the compressibility factor $Z=P V / R T$ and of $(\partial Z / \partial T)_{P}$ may be calculated from experimental $P V T$ data, with the two integrals in Eqs. (6.46), (6.48), and (6.49) evaluated by numerical or graphical methods. Alternatively, the two integrals may be expressed analytically with $Z$ given as a function of $T$ and $P$ by a volume-explicit equation of state. This direct connection with experiment allows evaluation of the residual properties $H^{R}$ and $S^{R}$ for use in the calculation of enthalpy and entropy values.
+
+Equations (6.46), (6.48), and (6.49) are incompatible with pressure-explicit equations of state and must be transformed such that $P$ is no longer the variable of integration. In carrying out this transformation, the molar density $\rho$ is a more convenient variable of integration than $V$, because $\rho$ goes to zero, rather than to infinity, as $P$ goes to zero. 
+
+The values so obtained are the mixture $\omega$ and pseudocritical temperature and pressure, $T_{p c}$ and $P_{p c}$, which replace $T_{c}$ and $P_{c}$ to define pseudoreduced parameters:
+
+Consider a pure liquid in equilibrium with its vapor and existing in a piston/cylinder arrangement that undergoes a differential evaporation at temperature $T$ and corresponding vapor pressure $P^{\text {sat }}$. Equation (6.7) applied to the process reduces to $d(nG)=0$. Because the number of moles $n$ is constant, $dG=0$, and this requires the molar (or specific) Gibbs energy of the vapor to be identical with that of the liquid. More generally, for two phases $\alpha$ and $\beta$ of a pure species coexisting at equilibrium, where $G^{\alpha}$ and $G^{\beta}$ are the molar or specific Gibbs energies of the individual phases.
+
+The entropy change $\Delta S^{\alpha \beta}$ and the volume change $\Delta V^{\alpha \beta}$ are changes that occur when a unit amount of a pure chemical species is transferred from phase $\alpha$ to phase $\beta$ at the equilibrium $T$ and $P$. Integration of Eq. (6.9) for this change yields the latent heat of phase transition:
+
+Known as the Clausius/Clapeyron equation, it relates the latent heat of vaporization directly to the vapor-pressure curve. Specifically, it indicates a direct proportionality of $\Delta H^{l v}$ to the slope of a plot of $\ln P^{\text {sat }}$ vs. $1 / T$. 
+
+As noted in Ex. 6.6, a plot of $\ln P^{\text {sat }}$ vs. $1 / T$ generally yields a line that is nearly straight: where $A$ and $B$ are constants for a given species. 
+
+A principal advantage of this equation is that values of the constants $A$, $B$, and $C$ are readily available for a large number of species. Each set of constants is valid for a specified temperature range, and should not be used much outside that range. The Antoine equation is sometimes written in terms of the base 10 logarithm, and the numerical values of the constants $A$, $B$, and $C$ depend on the units selected for $T$ and $P$. 
+
+The Wagner equation is one of the best available; it expresses the reduced vapor pressure as a function of reduced temperature: where: and $A$, $B$, $C$, and $D$ are constants. 
+
+In other words, $\omega$ for a particular substance is determined from Eq. (6.92) solved for $\omega$: where $T_{r_{n}}$ is the reduced normal boiling point temperature and $P_{r_{n}}^{\text {sat }}$ is the reduced vapor pressure corresponding to 1 standard atmosphere (1.01325 bar).
+
+Written for the volume, this relation is: where $V$ is the molar volume for a system containing a total number of moles $n=n^{l}+n^{v}$. Division by $n$ gives: where $x^{l}$ and $x^{v}$ represent the mass fractions of the total system that are liquid and vapor. With $x^{l}=1-x^{v}$,
+
+In this equation the properties $V, V^{l}$, and $V^{v}$ may be either molar or unit-mass values. The mass or molar fraction of the system that is vapor $x^{v}$ is often called the quality, particularly when the fluid in question is water. 
+
+Volume $(V)$, internal energy $(U)$, enthalpy $(H)$, and entropy $(S)$ are tabulated as functions of pressure at various temperatures. The steam tables are the most thorough compilation of properties for any single material. However, tables are available for a number of other substances.

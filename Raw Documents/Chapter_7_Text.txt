@@ -1,0 +1,77 @@
+The appropriate energy balance is Eq. (2.31). With $Q$, $W_{s}$ and $\Delta z$ all set equal to zero, 
+
+The continuity equation, Eq. (2.26), is also applicable. Because $\dot{m}$∙ is constant, its differential form is: 
+
+where $\beta$ is the volume expansivity. The equation derived in physics for the speed of sound $c$ in a fluid is:
+
+Substituting for the two partial derivatives in the equation for $d V$ now yields: 
+
+Equations (7.3), (7.4), (6.9), and (7.5) relate the six differentials $d H$, $d u$, $d V$, $d A$, $d S$, and $d P$. With but four equations, we treat $d S$ and $d A$ as independent, and we develop equations that express the remaining differentials as functions of these two. First, Eqs. (7.3) and (6.9) are combined: 
+
+Eliminating $d V$ and $d u$ from Eq. (7.4) by Eqs. (7.5) and (7.6) gives upon rearrangement: 
+
+where $\mathbf{M}$ is the Mach number, defined as the ratio of the speed of the fluid in the duct to the speed of sound in the fluid, $u / c$. Equation (7.7) relates $d P$ to $d S$ and $d A$. 
+
+Equations (7.6) and (7.7) are combined to eliminate $V d P$: 
+
+This equation relates $d u$ to $d S$ and $d A$. Combined with Eq. (7.3) it relates $d H$ to $d S$ and $d A$, and combined with Eq. (7.4) it relates $d V$ to these same independent variables. 
+
+The differentials Eq. (7.4) in the preceding equations represent changes in the fluid as it traverses a differential length of its path. If this length is $d x$, then each of the equations of flow may be divided through by $d x$. Equations (7.7) and (7.8) then become: 
+
+For the case of steady-state adiabatic flow of compressible fluids in a horizontal pipe of constant cross-sectional area, $d A / d x=0$, and Eqs. (7.9) and (7.10) reduce to: 
+
+For subsonic flow, $\mathbf{M}^{2}<1$. All terms on the right sides of these equations are then positive, and 
+
+Thus the pressure decreases and the velocity increases in the direction of flow. However, the velocity cannot increase indefinitely. If the velocity were to exceed the sonic value, then the above inequalities would reverse. Such a transition is not possible in a pipe of constant cross-sectional area. For subsonic flow, the maximum fluid velocity obtainable in a pipe of constant cross section is the speed of sound, and this value is reached at the exit of the pipe. At this point $d S / d x$ reaches its limiting value of zero. Given a discharge pressure low enough for the flow to become sonic, lengthening the pipe does not alter this result; the sonic velocity is still obtained at the outlet of the lengthened pipe. 
+
+The limitations observed for flow of compressible fluids in pipes do not extend to properly designed nozzles, which bring about the interchange of internal and kinetic energy of a fluid as a result of changing cross-sectional area available for flow. The design of effective nozzles is a problem in fluid mechanics, but the flow through a well-designed nozzle is susceptible to thermodynamic analysis. In a properly designed nozzle the area changes with length in such a way as to make the flow nearly frictionless. In the limit of reversible flow, the rate of entropy increase approaches zero, and $d S / d x=0$. In this event Eqs. (7.9) and (7.10) become:
+
+The characteristics of flow depend on whether the flow is subsonic ($\mathbf{M}<1$) or supersonic ($\mathbf{M}>1$). The various cases are summarized in Table 7.2.
+
+Thus, for subsonic flow in a converging nozzle, the velocity increases and the pressure decreases as the cross-sectional area diminishes. The maximum obtainable fluid velocity is the speed of sound, reached at the exit. Because of this, a converging subsonic nozzle can be used to deliver a constant flow rate into a region of variable pressure. Suppose a compressible fluid enters a converging nozzle at pressure $P_{1}$ and discharges from the nozzle into a chamber of variable pressure $P_{2}$. As this discharge pressure decreases below $P_{1}$, the flow rate and velocity increase. Ultimately, the pressure ratio $P_{2} / P_{1}$ reaches a critical value at which the velocity at the nozzle exit is sonic. Further reduction in $P_{2}$ has no effect on the conditions in the nozzle. The flow remains constant, and the velocity at the nozzle exit is sonic, regardless of the value of $P_{2} / P_{1}$, provided it is always less than the critical value. For steam, the critical value of this ratio is about 0.55 at moderate temperatures and pressures. 
+
+Supersonic velocities are readily attained in the diverging section of a properly designed converging/diverging nozzle (Fig. 7.1). With sonic velocity reached at the throat, a further increase in velocity and decrease in pressure requires an increase in cross-sectional area, a diverging section to accommodate increasing volume of flow. The transition occurs at the throat, where $d A / d x=0$. The relationships between velocity, area, and pressure in a converging/diverging nozzle are illustrated numerically in Ex. 7.2. 
+
+The speed of sound is attained at the throat of a converging/diverging nozzle only when the pressure at the throat is low enough that the critical value of $P_{2} / P_{1}$ is reached. If insufficient pressure drop is available in the nozzle for the velocity to become sonic, the diverging section of the nozzle acts as a diffuser. That is, after the throat is reached, the pressure rises and the velocity decreases; this is the conventional behavior for subsonic flow in diverging sections. Of course, even when $P_{2} / P_{1}$ is low enough to achieve choked flow, the velocity cannot continue to increase indefinitely. Ultimately, it will return to subsonic velocity across a shock wave. As $P_{2} / P_{1}$ decreases, the location of this shock wave will move down the nozzle, away from the throat, until the shock is outside the nozzle and the flow exiting the nozzle is supersonic. 
+
+where the final term is obtained upon elimination of $V$ by Eq. (3.23c), $P V^{\gamma}=$ const.
+
+Equation (7.11) may be solved for the pressure ratio $P_{2} / P_{1}$ for which $u_{2}$ reaches the speed of sound, i.e., where
+
+The derivative is found by differentiation with respect to $V$ of $P V^{\gamma}=$ const.: 
+
+With this value for $u_{2}^{2}$ in Eq. (7.11) and with $u_{1}=0$, solution for the pressure ratio at the throat gives:
+
+Throttling of wet steam to sufficiently low pressure causes the liquid to evaporate and the vapor to become superheated. Thus if wet steam at 1000 $\mathrm{kPa}$ ($t^{\mathrm{sat}}=179.88^{\circ} \mathrm{C}$) with a quality of 0.96 is throttled to 101.325 $\mathrm{kPa}$, 
+
+At 101.325 $\mathrm{kPa}$ steam with this enthalpy has a temperature of 109.8${ }^{\circ} \mathrm{C}$; it is therefore super- heated ($t^{\mathrm{sat}}=100^{\circ} \mathrm{C}$). The considerable temperature drop here results from evaporation of liquid. 
+
+If a saturated liquid is throttled to a lower pressure, some of the liquid vaporizes or flashes, producing a mixture of saturated liquid and saturated vapor at the lower pressure. Thus if saturated liquid water at 1000 $\mathrm{kPa}$ ($t^{\mathrm{sat}}=179.88^{\circ} \mathrm{C}$) is flashed to 101.325 $\mathrm{kPa}$ ($t^{\mathrm{sat}}=100^{\circ} \mathrm{C}$), 
+
+At 101.325 $\mathrm{kPa}$ the quality of the resulting steam is found from Eq. (6.96a) with $M=H$: 
+
+Usually, the inlet conditions $T_{1}$ and $P_{1}$ and the discharge pressure $P_{2}$ are fixed. Thus in Eq. (7.14) only $H_{1}$ is known; both $H_{2}$ and $W_{s}$ are unknown, and the energy balance equation alone does not allow their calculation. However, if the fluid in the turbine expands reversibly and adiabatically, the process is isentropic, and $S_{2}=S_{1}$. This second equation fixes the final state of the fluid and determines $H_{2}$. For this special case, $W_{s}$ is given by Eq. (7.14), written: 
+
+The shaft work $\left|W_{s}\right|$ (isentropic) is the maximum that can be obtained from an adiabatic turbine with given inlet conditions and given discharge pressure. Actual turbines produce less work, because the actual expansion process is irreversible; we define a turbine efficiency as: 
+
+where $W_{s}$ is the actual shaft work. By Eqs. (7.14) and (7.15), 
+
+Values of $\eta$ often fall in the range from 0.7 to 0.8. The HS diagram of Fig. 7.4 illustrates an actual expansion in a turbine and a reversible expansion for the same intake conditions and the same discharge pressure. The reversible path is the dashed vertical (constant-entropy) line from point 1 at intake pressure $P_{1}$ to point 2′ at discharge pressure $P_{2}$. The solid line, representing the actual irreversible path, starts at point 1 and terminates at point 2 on the isobar for $P_{2}$. Because the process is adiabatic, irreversibilities cause an increase in entropy of the fluid, and the path is directed toward increasing entropy. The more irreversible the process, the further point 2 lies to the right on the $P_{2}$ isobar, and the lower the efficiency $\eta$ of the process. 
+
+The compression process is shown on an HS diagram in Fig. 7.6. The vertical dashed line rising from point 1 to point 2′ represents the reversible adiabatic (constant-entropy) compression process from $P_{1}$ to $P_{2}$. The actual irreversible compression process follows the solid line from point 1 upward and to the right in the direction of increasing entropy, terminating at point 2. The more irreversible the process, the further this point lies to the right on the $P_{2}$ isobar, and the lower the efficiency $\eta$ of the process. 
+
+where for simplicity the superscript ig has been omitted from the mean heat capacity. If the compression is isentropic, $\Delta S=0$, and this equation becomes: 
+
+with $T_{2}^{\prime}$ the temperature that results when compression from $T_{1}$ and $P_{1}$ to $P_{2}$ is isentropic and where $\left\langle C_{P}^{\prime}\right\rangle_{S}$ is the mean heat capacity for the temperature range from $T_{1}$ to $-{\prime}$. 
+
+The actual discharge temperature $T_{2}$ resulting from compression is also found from Eq. (4.10), rewritten as:
+
+where by Eq. (7.14) $\Delta H=W_{s}$. Here $\left\langle C_{P}\right\rangle_{H}$ is the mean heat capacity for the temperature range from $T_{1}$ to $T_{2}$. 
+
+For monatomic gases, such as argon and helium, $R / C_{P}=2 / 5=0.4$. For such diatomic gases as oxygen, nitrogen, and air at moderate temperatures, $R / C_{P} \approx 2 / 7=0.2857$. For gases of greater molecular complexity the ideal-gas heat capacity depends more strongly on temperature, and Eq. (7.22) is less likely to be suitable. One can easily show that the assumption of constant heat capacities also leads to the result: 
+
+Liquids are usually moved by pumps, which are generally rotating equipment. The same equations apply to adiabatic pumps as to adiabatic compressors. Thus, Eqs. (7.13) through (7.15) and Eq. (7.17) are valid. However, application of Eq. (7.14) for the calculation of $W_{s}=\Delta H$ requires values of the enthalpy of compressed (subcooled) liquids, and these are seldom available. The fundamental property relation, Eq. (6.9), provides an alternative. For an isentropic process, 
+
+The usual assumption for liquids (at conditions well removed from the critical point) is that $V$ is independent of $P$. Integration then gives: 
+
+where the volume expansivity $\beta$ is defined by Eq. (3.3). Because temperature changes in the pumped fluid are very small and because the properties of liquids are insensitive to pressure (again at conditions not close to the critical point), these equations are usually integrated on the assumption that $C_{P}$, $V$, and $\beta$ are constant, usually at initial values. Thus, to a good approximation 

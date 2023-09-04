@@ -1,0 +1,176 @@
+where $F$ is the number of degrees of freedom, $\pi$ is the number of phases, and $N$ is the number of chemical species present in the system.
+
+The minimum number of degrees of freedom for any system is zero. When $F=0$, the system is invariant; Eq. (3.1) becomes $\pi=2+N$. This value of $\pi$ is the maximum number of phases that can coexist at equilibrium for a system containing $N$ chemical species. When $N=1$, this limit is reached for $\pi=3$, characteristic of a triple point (Sec. 3.2). For example, the triple point of H2O, where liquid, vapor, and the common form of ice exist together in equilibrium, occurs at 0.01°C and 0.0061 bar. Any change from these conditions causes at least one phase to disappear.
+
+Figure 3.1 displays the equilibrium conditions of $P$ and $T$  at which solid, liquid, and gas phases of a pure substance exist. Lines 1-2 and 2-C represent the conditions at which solid and liquid phases exist in equilibrium with a vapor phase. These vapor pressure versus temperature lines describe states of solid/vapor (line 1-2) and liquid/vapor (line 2-C) equilibrium. As indicated in Ex. 3.1(a), such systems have but a single degree of freedom. Similarly, solid/liquid equilibrium is represented by line 2-3. The three lines display conditions of $P$ and $T$ at which two phases may coexist, and they divide the diagram into single-phase regions. Line 1-2, the sublimation curve, separates the solid and gas regions; line 2-3, the fusion curve, separates the solid and liquid regions; line 2-C, the vaporization curve, separates the liquid and gas regions. Point C is known as the critical point; its coordinates $P_{c}$ and $T_{c}$ are the highest pressure and highest temperature at which a pure chemical species is observed to exist in vapor/liquid equilibrium.
+
+The three lines meet at the triple point, where the three phases coexist in equilibrium. According to the phase rule the triple point is invariant ($F=0$). If the system exists along any of the two-phase lines of Fig. 3.1, it is univariant ($F=1$), whereas in the single-phase regions it is divariant ($F=2$). Invariant, univariant, and divariant states appear as points, curves, and areas, respectively, on a PT diagram.
+
+Figure 3.2(b) is an expanded view of the liquid, liquid/vapor, and vapor regions of the PV diagram, with four isotherms (paths of constant $T$) superimposed. Isotherms on Fig. 3.1 are vertical lines, and at temperatures greater than $T_{c}$ do not cross a phase boundary. On Fig. 3.2(b) the isotherm labeled $T>T_{c}$ is therefore smooth.
+
+The lines labeled $T_{1}$ and $T_{2}$ are for subcritical temperatures and consist of three segments. The horizontal segment of each isotherm represents all possible mixtures of liquid and vapor in equilibrium, ranging from 100% liquid at the left end to 100% vapor at the right end. The locus of these end points is the dome-shaped curve labeled BCD, the left half of which (from B to C) represents single-phase liquids at their vaporization (boiling) temperatures and the right half (from C to D) single-phase vapors at their condensation temperatures. Liquids and vapors represented by BCD are said to be saturated, and coexisting phases are connected by the horizontal segment of the isotherm at the saturation pressure specific to the isotherm. Also called the vapor pressure, it is given by a point on Fig. 3.1 where an isotherm (vertical line) crosses the vaporization curve.
+
+For the regions of the diagram where a single phase exists, there is a unique relation connecting $P$, $V$, and $T$. Expressed analytically, as $f(P, V, T)=0$, such a relation is known as a PVT equation of state. It relates pressure, molar or specific volume, and temperature for a pure homogeneous fluid at equilibrium. The simplest example, the equation for the ideal-gas state, $P V=R T$, has approximate validity for the low-pressure gas region and is discussed in detail in the following section.
+
+An equation of state may be solved for any one of the three quantities $P$, $V$, or $T$, given values for other two. For example, if $V$ is considered a function of $T$ and $P$, then $V=V(T, P)$, and
+
+The isotherms for the liquid phase on the left side of Fig. 3.2(b) are very steep and closely spaced. Thus both $(\partial V / \partial T)_{P}$ and $(\partial V / \partial P)_{T}$ are small. Hence, both $\beta$ and $\boldsymbol{K}$ are small. This characteristic behavior of liquids (outside the critical region) suggests an idealization, commonly employed in fluid mechanics and known as the incompressible fluid, for which both β and κ are zero. No real fluid is truly incompressible, but the idealization is useful, because it pro- vides a sufficiently realistic model of liquid behavior for many practical purposes. No equation of state exists for an incompressible fluid, because $V$ is independent of $T$ and $P$.
+
+For liquids, $\beta$ is almost always positive (liquid water between 0°C and 4°C is an exception), and κ is necessarily positive. At conditions not close to the critical point, $\beta$ and $\boldsymbol{K}$ are weak functions of temperature and pressure. Thus for small changes in $T$ and $P$ little error is introduced if they are assumed constant. Integration of Eq. (3.5) then yields:
+
+In the 19th century, scientists developed a rough experimental knowledge of the PVT behavior of gases at moderate conditions of temperature and pressure, leading to the equation $P V=R T$, wherein $V$ is molar volume and $R$ is a universal constant. This equation adequately describes PVT behavior of gases for many practical purposes near ambient conditions of $T$ and $P$. However, more precise measurements show that for pressures appreciably above, and temperatures appreciably below, ambient conditions, deviations become pronounced. On the other hand, deviations become ever smaller as pressure decreases and temperature increases.
+
+The superscript ig denotes properties for the ideal-gas state.
+
+The property relations for this state are very simple, and at appropriate conditions of $T$ and P they may serve as suitable approximations for direct application to the real-gas state. However, they have far greater importance as part of a general three-step procedure for calculation of property changes for real gases that includes a major step in the ideal-gas state. The three steps are as follows:
+
+The  definition of heat capacity at constant volume, Eq. (2.15), leads for the ideal-gas state to the conclusion that $C_{V}^{i g}$ is a function of temperature only:
+
+The defining equation for enthalpy, Eq. (2.10), applied to the ideal-gas state, leads to the conclusion that $H^{i g}$ is also a function only of temperature:
+
+The heat capacity at constant pressure $C_{P}^{i g}$, defined by Eq. (2.19), like $C_{V}^{i g}$, is a function of temperature only:
+
+useful relation between $C_{P}^{i g}$ and $C_{V}^{i g}$ for the ideal-gas state comes from differentiation of Eq. (3.10):
+
+This equation does not mean that $C_{P}^{i g}$ and $C_{V}^{i g}$ are themselves constant for the ideal-gas state, but only that they vary with temperature in such a way that their difference is equal to $R$. For any change in the ideal-gas state, Eqs. (3.9) and (3.11) lead to:
+
+Because both $U^{i g}$ and $C_{V}^{i g}$ for the ideal-gas state are functions of temperature only, $\Delta U^{i g}$ for the ideal-gas state is always given by Eq. (3.13b), regardless of the kind of process causing the change. This is illustrated in Fig. 3.5, which shows a graph of internal energy as a function of $V^{i g}$ at two different temperatures.
+
+The dashed line connecting points a and b represents a constant-volume process for which the temperature increases from $T_{1}$ to $T_{2}$ and the internal energy changes by $\Delta U^{i g}=U_{2}^{i g}-U_{1}^{i g}$. This change in internal energy is given by Eq. (3.13b) as $\Delta U^{i g}=\int C_{V}^{l g} d T$. The dashed lines connecting points a and c and points a and d represent other processes not occurring at constant volume but which also lead from an initial temperature $T_{1}$ to a final temperature $T_{2}$. The graph shows that the change in $U^{i g}$ for these processes is the same as for the constant-volume process, and it is therefore given by the same equation, namely, $\Delta U^{i g}=\int C_{V}^{l g} d T$. However, $\Delta U^{i g}$ is not equal to $Q$ for these processes, because $Q$ depends not only on $T_{1}$ and $T_{2}$ but also on the path of the process. An entirely analogous discussion applies to the enthalpy $H^{i g}$ in the ideal-gas state.
+
+Substitution for $d W$ by Eq. (1.3) and solution for $d Q$ yields an equation valid for the ideal-gas state in any mechanically reversible closed-system process:
+
+This equation contains the variables $P$, $V^{i g}$, and $T$, only two of which are independent. Working equations for $d Q$ and $d W$ depend on which pair of these variables is selected as independent; i.e., upon which variable is eliminated by Eq. (3.7). We consider two cases, eliminating first $P$, and second, $V^{i g}$. With $P=R T / V^{i g}$, Eqs. (3.15) and (1.3) become:
+
+For $V^{i g}=R T / P$,$d V^{i g}=\frac{R}{P}\left(d T-T \frac{d P}{P}\right)$. Substituting for $d V^{i g}$ and for $C_{V}^{i g}=C_{P}^{i g}-R$ transforms
+
+Because $Q=-W$,  a result that also follows from Eq. (2.3), we can write in summary
+
+By Eqs. (3.13b) and (3.19) with $d P=0$,
+
+With $d V^{i g}=0$, $W=0$, and by Eqs. (3.13b) and (3.16),
+
+An adiabatic process is one for which there is no heat transfer between the system and its surroundings; i.e., $d Q=0$. Each of Eqs. (3.16) and (3.18) may therefore be set equal to zero. Integration with $C_{V}^{i g}$ and $C_{P}^{i g}$ constant then yields simple relations among the variables $T$, $P$, and $V^{i g}$, valid for mechanically reversible adiabatic compression or expansion in the ideal-gas state with constant heat capacities. For example, Eq. (3.16) becomes:
+
+Alternative forms of Eq. (3.25) result if $C_{V}^{i g}$ is eliminated in favor of the heat-capacity ratio γ:
+
+Because $R T_{1}=P_{1} V_{1}^{i g}$ and $R T_{2}=P_{2} V_{2}^{i g}$, this expression may be written:
+
+Equations (3.25) and (3.26) are general for adiabatic compression and expansion processes in a closed system, whether reversible or not, because $P$, $V^{i g}$, and $T$ are state functions, independent of path. However, $T_{2}$ and $V_{2}^{i g}$ are usually unknown. Elimination of $V_{2}^{i g}$ from Eq. (3.26) by Eq. (3.23c), valid only for mechanically reversible processes, leads to the expression:
+
+The same result is obtained when the relation between $P$ and $V^{i g}$ given by Eq. (3.23c) is used for the integration, $W=-\int P d V^{i g}$.
+
+When applied to real gases, Eqs. (3.23) through (3.27) often yield satisfactory approximations, provided the deviations from ideality are relatively small. For monatomic gases, $\gamma=1.67$; approximate values of $\gamma$ are 1.4 for diatomic gases and 1.3 for simple polyatomic gases such as CO2, SO2, NH3, and CH4.
+
+All equations developed in this section have been derived for mechanically reversible, closed-system processes for the ideal-gas state. However, the equations for property changes— $d U^{i g}$, $d H^{i g}$, $\Delta U^{i g}$, and $\Delta H^{i g}$—are valid for the ideal-gas state regardless of the process. They apply equally to reversible and irreversible processes in both closed and open systems, because changes in properties depend only on initial and final states of the system. On the other hand, an equation for $Q$ or $W$, unless it is equal to a property change, is subject to the restrictions of its derivation.
+
+Volumetric data for fluids are useful for many purposes, from the metering of fluids to the sizing of tanks. Data for $V$ as a function of $T$ and $P$ can of course be given as tables. However, expression of the functional relation $f(P, V, T)=0$ by equations is much more compact and convenient. The virial equations of state for gases are uniquely suited to this purpose.
+
+If we define, $b \equiv a B^{\prime}$ , $c \equiv a C^{\prime}$ , etc., then,
+
+where $B^{\prime}$ , $C^{\prime}$ , etc., are constants for a given temperature and a given substance.
+
+Parameters $B^{\prime}$ , $C^{\prime}$ ,  etc., in Eq. (3.28) are species-dependent functions of temperature, but param- eter a is found by experiment to be the same function of temperature for all chemical species. This is shown by isothermal measurements of $V$ as a function of $P$ for various gases. Extrapolations of the PV product to zero pressure, where Eq. (3.28) reduces to $P V=a$, show that $a$ is the same function of $T$ for all gases. Denoting this zero-pressure limit by an asterisk provides:
+
+Makes $(P V)^{*}$ directly proportional to $T$, with $R$ as the proportionality constant:
+
+The proportionality constant $R$ in Eqs. (3.29) and (3.30) is the universal gas constant. Its numerical value is found from Eq. (3.30):
+
+The accepted experimental value of $(P V)_{t}^{*}$ is 22,711.8 bar·cm3 · mol−1, from which6
+
+This dimensionless ratio is called the compressibility factor. It is a measure of the deviation of the real-gas molar volume from its ideal-gas value. For the ideal-gas state, $Z=1$. At moderate temperatures its value is usually $<1$, though at elevated temperatures it may be $>1$. Figure 3.6 shows the compressibility factor of carbon dioxide as a function of $T$ and $P$. This figure presents the same information as Fig. 3.4, except that it is plotted in terms of $Z$ rather than $V$. It shows that at low pressure, $Z$ approaches 1, and at moderate pressures, $Z$ decreases roughly linearly with pressure.
+
+With $Z$ defined by Eq. (3.32) and with $a=R T$ [Eq. (3.29)], Eq. (3.28) becomes:
+
+Both of these equations are known as virial expansions, and the parameters $B^{\prime}$, $C^{\prime}$, $D^{\prime}$, etc., and $B$, $C$, $D$, etc., are called virial coefficients. Parameters $B^{\prime}$ and $B$ are second virial coefficients; $C^{\prime}$ and $C$ are third virial coefficients, and so on. For a given gas the virial coefficients are functions of temperature only.
+
+To derive these relations, we set $Z=P V / R T$ in Eq. (3.34) and solve for $P$. This allows elimination of $P$ on the right side of Eq. (3.33). The resulting equation reduces to a power series in $1 / V$ which may be compared term by term with Eq. (3.34) to yield the given relations. They hold exactly only for the two virial expansions as infinite series, but they are acceptable approximations for the truncated forms used in practice.
+
+Many other equations of state have been proposed for gases, but the virial equations are the only ones firmly based on statistical mechanics, which provides physical significance to the virial coefficients. Thus, for the expansion in $1 / V$, the term $B / V$ arises on account of interactions between pairs of molecules; the $C / V^{2}$ term, on account of three-body interactions; etc. Because, at gas-like densities, two-body interactions are many times more common than three-body interactions, and three-body interactions are many times more numerous than four-body interactions, the contributions to $Z$ of the successively higher-ordered terms decrease rapidly.
+
+Figure 3.7 shows a compressibility-factor graph for methane. All isotherms originate at $Z=1$ and $P=0$, and are nearly straight lines at low pressures. Thus the tangent to an isotherm at $P=0$is a good approximation of the isotherm from $P \rightarrow 0$ to some finite pressure. Differentiation of Eq. (3.33) for a given temperature gives:
+
+Thus the equation of the tangent line is $Z=1+B^{\prime} P$, a result also given by truncating Eq. (3.33) to two terms. 
+
+The second virial coefficient $B$ is substance dependent and a function of temperature. Experimental values are available for a number of gases.8 Moreover, estimation of second virial coefficients is possible where no data are available, as discussed in Sec. 3.7.
+
+For pressures above the range of applicability of Eq. (3.36) but below the critical pressure, the virial equation truncated to three terms often provides excellent results. In this case Eq. (3.34), the expansion in $1 / V$, is far superior to Eq. (3.33). Thus when the virial equation is truncated to three terms, the appropriate form is:
+
+Figure 3.8 illustrates the effect of temperature on the virial coefficients $B$ and $C$ for nitrogen; although numerical values are different for other gases, the trends are similar. The curve of Fig. 3.8 suggests that $B$ increases monotonically with $T$; however, at temperatures much higher than shown, $B$ reaches a maximum and then slowly decreases. The temperature dependence of $C$ is more difficult to establish experimentally, but its main features are clear: $C$ is negative at low temperatures, passes through a maximum at a temperature near the critical temperature, and thereafter decreases slowly with increasing $T$.
+
+Here, $a$ and $b$ are positive constants, specific to a particular species; when they are zero, the equation for the ideal-gas state is recovered. The purpose of the term $a / V^{2}$ is to account for the attractive forces between molecules, which make the pressure lower than that which would be exerted in the ideal-gas state. The purpose of constant $b$ is to account for the finite size of molecules, which makes the volume larger than in the ideal-gas state.
+
+Given values of $a$ and $b$ for a particular fluid, one can calculate $P$ as a function of $V$ for various values of $T$. Figure 3.9 is a schematic PV diagram showing three such isotherms. Superimposed is the “dome” representing states of saturated liquid and saturated vapor.10 For the isotherm $T_{1}>T_{c}$, pressure decreases with increasing molar volume. The critical isotherm (labeled $T_{c}$) contains the horizontal inflection at C characteristic of the critical point. For the isotherm $T_{2}<T_{c}$, the pressure decreases rapidly in the subcooled-liquid region with increasing $V$; after crossing the saturated-liquid line, it goes through a minimum, rises to a maximum, and then decreases, crossing the saturated-vapor line and continuing downward into the superheated-vapor region.
+
+Cubic equations of state have three volume roots, of which two may be complex. Physically meaningful values of $V$ are always real, positive, and greater than constant $b$. For an isotherm at $T>T_{c}$, reference to Fig. 3.9 shows that solution for $V$ at any value of $P$ yields only one such root. For the critical isotherm ($T=T_{c}$), this is also true, except at the critical pressure, where there are three roots, all equal to $V_{c}$. For isotherms at $T<T_{c}$, the equation may exhibit one or three real roots, depending on the pressure. Although these roots are real and positive, they are not physically stable states for the portion of an isotherm lying between saturated liquid and saturated vapor (under the “dome”). Only for the saturation pressure $P^{\text {sat }}$ are the roots, $V^{\text {sat }}($ liq $)$ and $V^{\text {sat }}($ vap $)$, stable states, lying at the ends of the horizontal portion of the true isotherm. For any pressure other than $P^{\text {sat }}$, there is only a single physically meaningful root, corresponding to either a liquid or a vapor molar volume.
+
+The assignment of appropriate parameters leads not only to the van der Waals (vdW) equation and the Redlich/Kwong (RK) equation, but also to the Soave/Redlich/Kwong (SRK)13 and the Peng/Robinson (PR) equations.14 For a given equation, $\mathcal{E}$ and $\sigma$ are pure numbers, the same for all substances, whereas parameters $a(T)$ and $b$ are substance dependent. The temperature dependence of $a(T)$  is specific to each equation of state. The SRK equation is identical to the RK equation, except for the $T$ dependence of $a(T)$. The PR equation takes different values for $\mathcal{E}$ and $\sigma$, as indicated in Table 3.1.
+
+The parameters $b$ and $a(T)$ of Eq. (3.41) can in principle be found from PVT data, but sufficient data are rarely available. They are in fact usually found from values for the critical constants $T_{c}$ and $P_{c}$. Because the critical isotherm exhibits a horizontal inflection at the critical point, we may impose the mathematical conditions:
+
+Subscript “cr” denotes the critical point. Differentiation of Eq. (3.41) yields expressions for both derivatives, which may be equated to zero for $P=P_{c}$, $T=T_{c}$, and $V=V_{c}$. The equation of state may itself be written for the critical conditions. These three equations contain five constants: $P_{c}$, $V_{c}$, $T_{c}$, $a\left(T_{c}\right)$, and $b$. Of the several ways to treat these equations, the most suitable is elimination of Vc to yield expressions relating $a\left(T_{c}\right)$ and $b$ to $P_{c}$ and $T_{c}$. The reason is that $P_{c}$ and $T_{c}$ are more widely available and more accurately known than $V_{c}$.
+
+The algebra is intricate, but it leads eventually to the following expressions for parameters $b$ and $a\left(T_{c}\right)$:
+
+This result is extended to temperatures other than $T_{c}$ by the introduction of a dimensionless function $\alpha\left(T_{r} ; \omega\right)$ that becomes unity at the critical temperature:
+
+In these equations $\Omega$ and $\Psi$ are pure numbers, independent of substance but specific to a particular equation of state. Function $\alpha\left(T_{r} ; \omega\right)$ is an empirical expression, wherein by definition $T_{r} \equiv T / T_{c}$, and $\omega$ is a parameter specific to a given chemical species, defined and discussed further below.
+
+This analysis also shows that each equation of state implies a value of the critical compressibility factor $Z_{c}$ that is the same for all substances. Different values are found for different equations. Unfortunately, $Z_{c}$ values calculated from experimental values of $T_{c}$, $P_{c}$, and $V_{c}$ differ from one species to another, and they agree in general with none of the fixed values predicted by common cubic equations of state. Experimental values are almost all smaller than any of the predicted values.
+
+Equations of state are commonly transformed into expressions for the compressibility factor. An equation for $Z$ equivalent to Eq. (3.41) is obtained by substituting $V=Z R T / P$. In addition, we define two dimensionless quantities that lead to simplification:
+
+Equation (3.48) is particularly adapted to solving for vapor and vapor-like roots. Itera- tive solution starts with the value $Z=1$ substituted on the right side. The calculated value of $Z$ is returned to the right side and the process continues to convergence. The final value of $Z$ yields the volume root through $V=Z R T / P=Z V^{i g}$.
+
+This equation is particularly suited to solving for liquid and liquid-like roots. Iterative solution starts with the value $Z=\beta$ substituted on the right side. Once Z is known, the volume root is again $V=Z R T / P=Z V^{i g}$.
+
+Experimental compressibility-factor data show that values of $Z$ for different fluids exhibit similar behavior when correlated as a function of reduced temperature $T_{r}$ and reduced pressure $P_{r}$, where by definition $T_{r} \equiv T / T_{c}$ and $P_{r} \equiv P / P_{c}$. It is therefore common to evaluate equation-of-state parameters through these dimensionless variables. Thus, Eq. (3.46) and Eq. (3.47) in combination with Eq. (3.44) and (3.45) yield:
+
+With parameters $\beta$ and $q$ evaluated by these equations, $Z$ becomes a function of $T_{r}$ and $P_{r}$ and the equation of state is said to be generalized because of its general applicability to all gases and liquids. The numerical assignments for parameters $\mathcal{E}$, $\sigma$, $\Omega$, and $\Psi$ for the equations of interest are summarized in Table 3.1. Expressions are also given for $\alpha\left(T_{r} ; \omega\right)$ for the SRK and PR equations.
+
+Two-parameter corresponding-states correlations of $Z$ require the use of only two reducing parameters $T_{c}$ and $P_{c}$. Although these correlations are very nearly exact for the simple fluids (argon, krypton, and xenon), systematic deviations are observed for more complex fluids. Appreciable improvement results from the introduction of a third corresponding-states parameter (in addition to $T_{c}$ and $P_{c}$), characteristic of molecular structure. The most popular such parameter is the acentric factor, $\omega$, introduced by K. S. Pitzer and coworkers.15
+
+where $P_{r}$ sat is reduced vapor pressure, $T_{r}$ is reduced temperature, and $S$ is the slope of a plot of $\log P_{r}$}^{\text {sat }} vs. $1 / T_{r}$. Note that "log" here denotes the base 10 logarithm.
+
+If two-parameter corresponding-states correlations were generally valid, the slope $S$ would be the same for all pure fluids. This is observed not to be true; within a limited range, each fluid has its own characteristic value of $S$, which could in principle serve as a third corresponding-states parameter. However, Pitzer noted that all vapor-pressure data for the simple fluids (Ar, Kr, Xe) lie on the same line when plotted as $\log P_{r}^{\text {sat }}$ vs. $1 / T_{r}$ and that the line passes through $\log P_{r}^{\text {sat }}=-1.0$ at $T_{r}=0.7$. This is illustrated in Fig. $3.10$. Data for other fluids define other lines whose locations can be fixed relative to the line for the simple fluids (SF) by the difference:
+
+The acentric factor is defined as this difference evaluated at $T_{r}=0.7$ :
+
+Therefore $\omega$ can be determined for any fluid from $T_{c}$, $P_{c}$, and a single vapor-pressure measurement made at $T_{r} = 0.7$. Values of $\omega$ and the critical constants $T_{c}$, $P_{c}$, and $V_{c}$ for a number of substances are listed in App. B. 
+
+The definition of $\omega$ makes its value zero for argon, krypton, and xenon, and experimental data yield compressibility factors for all three fluids that are correlated by the same curves when $Z$ is plotted as a function of $T_{r}$ and $P_{r}$. This is the basic premise of three-parameter corresponding-states correlations:
+
+Generalized correlations find widespread use. Most popular are correlations of the kind developed by Pitzer and coworkers for the compressibility factor $Z$ and for the second virial coefficient $B$.
+
+where $Z^{0}$ and $Z^{1}$ are functions of both $T_{r}$ and $P_{r}$. When $\omega=0$, as is the case for the simple fluids, the second term disappears, and $Z^{0}$ becomes identical with $Z$. Thus a generalized correlation for $Z$ as a function of $T_{r}$ and $P_{r}$ based only on data for argon, krypton, and xenon provides the relationship $Z^{0}=F^{0}\left(T_{r}, P_{r}\right)$. By itself, this represents a two-parameter corresponding-states correlation for $Z$.
+
+Equation (3.53) is a simple linear relation between $Z$ and $\omega$ for given values of $T_{r}$ and $P_{r}$. Experimental data for $Z$ for nonsimple fluids plotted vs. $\omega$ at constant $T_{r}$ and $P_{r}$ do indeed yield approximately straight lines, and their slopes provide values for $Z^{1}$ from which the generalized function $Z^{1}=F^{1}\left(T_{r}, P_{r}\right)$ can be constructed.
+
+Of the Pitzer-type correlations available, the one developed by Lee and Kesler is the most widely used. It takes the form of tables that present values of $Z^{0}$ and $Z^{1}$ as functions of $T_{r}$ and $P_{r}$. These are given in App. D as Tables D.1 through D.4. Use of these tables requires interpolation, as demonstrated at the beginning of App. E. The nature of the correlation is indicated by Fig. 3.11, a plot of $Z^{0}$ vs. $P_{r}$ for six isotherms. 
+
+Fig. 3.12 shows $Z^{0}$ vs. $P_{r}$ and $T_{r}$ as a three-dimensional surface with isotherms and iso- bars superimposed. The saturation curve, where there is a discontinuity in $Z$, is not precisely defined in this plot, which is based on the data of Table D.1 and D.3. One should proceed with caution when applying the Lee/Kesler tables near the saturation curve. Although the tables contain values for liquid and vapor phases, the boundary between these will in general not be the same as the saturation curve for a given real substance. The tables should not be used to predict whether a substance is vapor or liquid at given conditions. Rather, one must know the phase of the substance, and then take care to interpolate or extrapolate only from points in the table that represent the appropriate phase.
+
+where $T$ is absolute temperature in kelvins. Use of these effective critical parameters for hydrogen requires the further specification that $\omega=0$.
+
+The tabular nature of the generalized compressibility-factor correlation is a disadvantage, but the complexity of the functions $Z^{0}$ and $Z^{1}$ precludes their accurate representation by simple equations. Nonetheless, we can give approximate analytical expression to these functions for a limited range of pressures. The basis for this is Eq. (3.36), the simplest form of the virial equation:
+
+Second virial coefficients are functions of temperature only, and similarly $B^{0}$ and $B^{1}$ are functions of reduced temperature only. They are adequately represented by the Abbott equations
+
+The simplest form of the virial equation has validity only at low to moderate pressures where $Z$ is linear in pressure. The generalized virial-coefficient correlation is therefore useful only where $Z^{0}$ and $Z^{1}$ are at least approximately linear functions of reduced pressure. Figure 3.13 compares the linear relation of $Z^{0}$ to $P_{r}$ as given by Eqs. (3.60) and (3.61) with values of $Z^{0}$ from the Lee/Kesler compressibility-factor correlation, Tables D.1 and D.3 of App. D. The two correlations differ by less than $2 \%$ in the region above the dashed line of the figure. For reduced temperatures greater than $T_{r} \approx 3$, there appears to be no limitation on the pressure. For lower values of $T_{r}$ the allowable pressure range decreases with decreasing temperature. A point is reached, however, at $T_{r} \approx 0.7$ where the pressure range is limited by the saturation pressure. 20 This is indicated by the left-most segment of the dashed line. The minor contributions of $Z^{1}$ to the correlations are here neglected.
+
+In view of the uncertainty associated with any generalized correlation, deviations of no more than $2 \%$ in $Z^{0}$ are not significant.
+
+where the reduced second virial coefficient $\hat{B}$ is defined by Eq. (3.58). The reduced (and dimensionless) third virial coefficient and the Pitzer correlation for it are:
+
+An expression for $C^{0}$ as a function of reduced temperature is given by Orbey and Vera:
+
+The expression for $C^{1}$ given by Orbey and Vera is replaced here by one that is algebraically simpler, but essentially equivalent numerically:
+
+Equation (3.63) is cubic in $Z$, and it cannot be expressed in the form of Eq. (3.53). With $T_{r}$ and $P_{r}$ specified, $Z$ may be found by iteration. An initial value of $Z=1$ on the right side of Eq. (3.63) usually leads to rapid convergence.
+
+Lydersen, Greenkorn, and Hougen developed a two-parameter corresponding-states correlation for estimation of liquid volumes. It provides a correlation of reduced density $\rho_{r}$ as a function of reduced temperature and pressure. By definition,
+
+where $\rho_{c}$ is the density at the critical point. The generalized correlation is shown by Fig. 3.15. This figure may be used directly with Eq. (3.70) for determination of liquid volumes if the value of the critical volume is known. A better procedure is to make use of a single known liquid volume (state 1 ) by the identity,
+
+$V_{2}$ = required volume
+$V_{1}$ = known volume $\rho_{r_{1}}, \rho_{r_{2}}$= reduced densities read from Fig. $3.15$
